@@ -33,9 +33,12 @@
 ## 2. 编译
 
 ```console
-$ git clone -b linux --single-branch https://github.com/DoubleLabyrinth/navicat-keygen.git
+$ git clone -b linux --single-branch https://github.com/STFQ/navicat-keygen-linux.git
 $ cd navicat-keygen
 $ make all
 ```
+
+## 注 如果编译的时候出现报错，可能是因为你的gcc版本太低导致，升级GCC版本到最新即可解决
+## 2.如果用网上已经编译好的包，运行 ./natvicat-keygen --text Regstring  的时候出现  cpp:174的报错，这也是因为GCC版本过低导致的
 
 生成完成后，你会在 `bin/` 文件夹下看到编译后的keygen/patcher。
